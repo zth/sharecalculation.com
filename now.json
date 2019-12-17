@@ -1,0 +1,23 @@
+{
+  "name": "sharecalculation",
+  "version": 2,
+  "routes": [
+    {
+      "src": "/assets/(.*)",
+      "headers": { "Cache-Control": "max-age=31104000" },
+      "dest": "/assets/$1"
+    },
+    {
+      "src": "/sw.js",
+      "dest": "/assets/sw.js"
+    },
+    {
+      "src": "/robots.txt",
+      "dest": "/assets/robots.txt"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/assets/index.html"
+    }
+  ]
+}

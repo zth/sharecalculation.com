@@ -1,0 +1,1 @@
+[@bs.val "window.navigator.language"] external language: string = "";
