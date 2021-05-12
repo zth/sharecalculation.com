@@ -20,7 +20,7 @@
     "bs-intl": "^1.1.0",
     "bs-webapi": "^0.15.6",
     "katex": "0.11.1",
-    "mathjs": "6.2.5",
+    "mathjs": "7.5.1",
     "react": "^0.0.0-experimental-b53ea6ca0",
     "react-basic-error-boundary": "1.1.0",
     "react-dom": "^0.0.0-experimental-b53ea6ca0",
